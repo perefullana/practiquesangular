@@ -24,10 +24,10 @@ export class AppComponent implements OnInit {
   multiply() {
   this.result = this.calc.multiply(this.field1, this.field2);
   }
-  divide(){
+  divide() {
   this.result = this.calc.divide(this.field1, this.field2);
   }
-  insultarjulio(){
+  insultarjulio() {
     this.result = this.calc.insultarjulio('hola');
   }
   ngOnInit(): void {
